@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jac Triemert - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="hero text-center">
+        <div class="container">
+            <a class="hero-brand" href="#">
+                <img src="assets/me.jpeg" alt="Jac Triemert" class="hero-img" style="width: 80px; height: 100px; border-radius: 60%; object-fit: cover;">
+            </a>
+            <h1 style="padding-top: 10px;">Jac Triemert</h1>
+            <p><strong>jactriemert@gustavus.edu</strong> · <strong>651-788-5463</strong> · Woodbury, MN</p>
+            <p><a href="https://linkedin.com/in/jactriemert" target="_blank">LinkedIn</a> · <a href="https://github.com/jactriemert" target="_blank">GitHub</a></p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container py-4">
+        <h2>Academic Experience</h2>
+        <p><strong>Gustavus Adolphus College</strong> — St. Peter, MN<br>B.A. in Computer Science, Minor in Statistics<br>Expected Graduation: May 2025</p>
+        <h3>Relevant Courses</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li>Introduction to Data</li>
+                    <li>Machine Learning</li>
+                    <li>Computing in Society</li>
+                    <li>Introduction to Systems</li>
+                    <li>Algorithms</li>
+                    <li>Principles of Programming Languages</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li>Applied Business Analytics</li>
+                    <li>Statistical Regression</li>
+                    <li>Design of Experiments</li>
+                    <li>Discrete Mathematics</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container py-4">
+        <h2>Projects</h2>
+        <div class="project">
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-6">
+                    <div class="card shadow-sm p-3 mb-4" style="background: rgb(255, 193, 7); height: 100%;">
+                        <h3>Tech In Banking (Spring 2023)</h3>
+                        <p>Built a responsive website using HTML, JavaScript, and CSS to explain how technology is transforming banking.</p>
+                        <p>Designed and embedded mini quizzes to improve user engagement.</p>
+                        <p>Optimized the site for mobile devices using Bootstrap.</p>
+                        <button type="button" class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#projectModal">
+                            More Details
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6">
+                    <div class="card shadow-sm p-3 mb-4" style="background: rgb(255, 193, 7); height: 100%;">
+                        <h3>Spotify Follower Counts by Gender (Spring 2024)</h3>
+                        <p>Created an interactive dashboard in R Shiny to visualize Spotify artist data.</p>
+                        <p>Cleaned, filtered, and processed gender-based metrics and dynamic user inputs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Tech in Banking -->
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModalLabel">Tech in Banking - Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>This project explored how technology is changing the banking world. I built a responsive website using HTML, CSS, and JavaScript, and added quizzes to make it more interactive.</p>
+                    <p>You can view the project here:</p>
+                    <a href="https://kyguyhero.github.io/TechInBanking/index.html" target="_blank">Tech in Banking Website</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container py-4">
+        <h2>Technical Skills</h2>
+        <p><strong>Languages:</strong> Python, R, Java, HTML/CSS, JavaScript, SQL, C</p>
+        <p><strong>Tools & Frameworks:</strong> R Shiny, Bootstrap, Git, Excel</p>
+        <p><strong>Proficient:<strong> SQLite, Python, HTML, R</p>
+        <p><strong>Familiar:</strong> CSS, JavaScript, Excel, C</p>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="container py-4">
+        <h2>Other Professional Experience</h2>
+        <h3>Landscaper | McDonough Landscaping — Woodbury, MN</h3>
+        <p>May 2022 – August 2024</p>
+        <ul>
+            <li>Built patios, landings, and retaining walls (hardscaping).</li>
+            <li>Managed plantings, sod installation, and gardening tasks (softscaping).</li>
+            <li>Adapted daily to changing tasks and weather conditions.</li>
+        </ul>
+    </section>
+
+    <!-- ✅ Bootstrap JS (required for modal) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
